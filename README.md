@@ -47,7 +47,10 @@ sales-forecast-project/
   - sales_forecast.ipynb
 
 - src/                    # Source code for the machine learning model
-  - model.py
+  - init.py # Makes this directory a package
+  - data_preprocessing.py # Data cleaning and preprocessing scripts
+  - model_training.py # Scripts for training machine learning models 
+  - feature_engineering.py # Scripts for feature engineering
   
 - .gitignore              # Git ignore file for unnecessary files
 
