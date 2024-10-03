@@ -4,12 +4,15 @@
 
 - [Overview](#overview)
   - [Project Goal](#project-goal)
+  - [Project History](#project-history)
 - [Process](#process)
   - [Technologies Used](#technologies-used)
   - [Directories Structure]()
   - [What I learned](#what-i-learned)
-  - [Addtional Features](#additional-feature)
+  - [Future Improvements](#future-improvements)
+  - [Additional Feature](#additional-feature)
   - [How to Run the Project](#how-to-run-the-project)
+- [Results](#results)  
 - [Author](#author)
 
 ## Overview
@@ -18,11 +21,12 @@
 
 - The main goal of this project is to predict sales for a given period based on advertising spend across different channels. Specifically, we analyze investments in TV, Radio, and Newspaper ads, using machine learning models to create an accurate sales forecast.
 
+## Project History
+
 ### This project was originally developed in 2022 during the "Intensivão de Python" livestream by Hashtag Programação and is now in 2024 updated.
 - Website: https://www.hashtagtreinamentos.com/
 - Youtube channel: https://www.youtube.com/c/HashtagPrograma%C3%A7%C3%A3o
 - Instagram: https://www.instagram.com/hashtagprogramacao/
-
 
 
 ## Process
@@ -107,6 +111,31 @@ Even though this was a study-based enhancement, the project as a whole was desig
 
 #### Run the Jupyter notebook or Python script:
 - jupyter notebook sales_forecast.ipynb
+
+## Results
+
+1. Performance on the Original Dataset:
+  - Linear Regression:
+    - Training R²: 0.8609
+    - Testing R²: 0.8609
+
+  - Random Forest:
+    - Training R²: 0.9982
+    - Testing R²: 0.9887
+
+2. Performance after Adding Internet Ad Budget:
+  - Linear Regression:
+    - Training R²: 0.9697
+    - Testing R²: 0.9566
+
+  - Random Forest:
+    - Training R²: 0.9983
+    - Testing R²: 0.9892
+
+3. Conclusion: The addition of the Internet Ad Budget significantly improved the model's accuracy, especially in the Random Forest model. This demonstrates the growing relevance of digital advertising channels.
+
+
+
 
 ## Author
 
